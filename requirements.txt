@@ -1,0 +1,9 @@
+torch
+opencv-python
+numpy
+tensorboardX
+easydict
+scipy
+einops
+h5py
+tqdm
