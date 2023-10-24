@@ -26,6 +26,6 @@ Concerning spatio-temporal correlation, traditional reconstruction algorithms ba
 Additionally, deep learning models based on mutual learning contain an excessive number of parameters and are challenging to deploy. 
 To address these issues, this paper adopts the **recurrent neural network transformation model** for optical flow estimation. It introduces the **Reconstructed Spike Transformer (RSFM)**, a deep learning model that comprehensively analyzes global and local dynamics in an end-to-end manner. The model is optimized to efficiently process a large volume of spike stream image reconstructions with low time complexity, resulting in clearly reconstructed images. This paper adopts **Supervised Learning**, uses original png images as real values, dat spike streams as input.
 ## Performance
-To balance memory consumption and feature restoration, this study effectively leverages motion features, achieving a maximum PSNR of 31.83 and an SSIM of 0.82. These results surpass classical reconstruction algorithms, more than doubling the performance in terms of both PSNR and SSIM.
+To balance memory consumption and feature restoration, this study effectively leverages motion features, achieving a maximum PSNR of 31.83 and an SSIM of 0.82. These results surpass classical reconstruction algorithms, more than doubling the performance in terms of both /**PSNR**/ and /**SSIM**/.
 It is observed that reconstructions of different scenarios are reliable.
 
